@@ -1,7 +1,34 @@
-# Vue 3 + Vite
+# Vite + Vue 3 Country Catalog Assignment
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+List all countries catalog with search, pagination and sort functionalities<br>
 
-## Recommended IDE Setup
+### Started
+Following below instruction to get project running, make sure you have all Vue 3 development environments
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Clone Project 
+
+You can clone the project form github repositry
+
+```shell
+git clone https://github.com/houlim/assignment.git
+```
+
+After clone project from reposity, please follow below installation
+
+### Installation
+
+- Go to your project root directory
+
+```js
+cd assignment
+npm install or yarn 
+```
+
+### Running Development server
+```js
+yarn run dev
+```
+### Deploy for production
+```js
+yarn run build
+```
