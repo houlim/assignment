@@ -31,8 +31,8 @@
             <p>Alt Name: <span v-for="(alternativeName, altName) in item.altSpellings" :key="altName">
                     {{ alternativeName }},
                 </span></p>
-            <p>Country Code: {{item.idd.root}}<span v-for="(suffixCode, suffix) in item.idd.suffixes" :key="suffix">
-                    {{suffixCode}}
+            <p>Country Code: <span v-for="(suffixCode, suffix) in item.idd.suffixes" :key="suffix">
+                {{item.idd.root}}{{suffixCode}}, 
                 </span></p>
 
         </div>
